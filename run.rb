@@ -62,8 +62,8 @@ zoos = {
 
 # Central Park Zoo has just received 4 wolves. Alter the `zoos` information to reflect this new change:
 # Put this hash: { species: "Wolf", count: 4 } in the array under the `:animals` key in Central Park Zoo
-
-
+zoo[:"Central Park Zoo"][:animals] << { species: "Wolf", count: 4 }
+binding. pry
 
 
 
