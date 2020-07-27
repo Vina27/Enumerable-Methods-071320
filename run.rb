@@ -63,15 +63,16 @@ zoos = {
 # Central Park Zoo has just received 4 wolves. Alter the `zoos` information to reflect this new change:
 # Put this hash: { species: "Wolf", count: 4 } in the array under the `:animals` key in Central Park Zoo
 zoo[:"Central Park Zoo"][:animals] << { species: "Wolf", count: 4 }
-binding. pry
-
+binding.pry
+end 
 
 
 # The 2 penguins in the Bronx Zoo just had a baby. Alter the `zoos` information to reflect this new change:
 # Increment the number for the `:count` key in the "Penguin" hash in the Bronx Zoo array by 1. 
 # You can assume that the animal at index 0 will always be the "Penguin" hash.
 
-
+zoo{:"Bronx_zoo"}{:animals}[0]{:species}{:Penguin}{:count += 1}
+count += 1 
 
 
 
